@@ -1,0 +1,28 @@
+package backend;
+
+/**
+ * A representation of VitalSigns which includes temperature, blood pressure, and heart rate.
+ * @author SeongMinJeong, JunaidPatel, EricCyr, JackYiu, YiChenZhu
+ *
+ */
+
+public class VitalSigns {
+	
+	public Double temperature;
+	public Integer heartRate;
+	public BloodPressure bloodPressure;
+	
+	/**
+	 * Creates a new VitalSigns with the given temperature. heart rate, systolicBP and diastolicBP for the blood pressure.
+	 * @param temperature
+	 * @param heartRate
+	 * @param systolicBP
+	 * @param diastolicBP
+	 */
+	public VitalSigns(Double temperature, Integer heartRate, BloodPressure bloodPressure) {
+		this.temperature = temperature;
+		this.heartRate = heartRate;
+		this.bloodPressure = bloodPressure;
+	}
+	
+}

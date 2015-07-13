@@ -1,0 +1,22 @@
+package backend;
+
+import java.util.Map;
+import java.util.HashMap;
+
+/**
+ * A representation of a Patient.
+ * @author SeongMinJeong, JunaidPatel, EricCyr, JackYiu, YiChenZhu
+ *
+ */
+
+public class Patient {
+	
+	public Map<Date, VitalSigns> vitalSignsList;
+	
+	public Patient(Date date, VitalSigns vitalSigns) {
+		
+		Map<Date, VitalSigns> vitalSignsList = new HashMap<Date, VitalSigns>();
+		
+	}
+	
+}
